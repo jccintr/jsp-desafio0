@@ -6,10 +6,6 @@ public class Order {
 	private Double basic;
 	private Double discount;
 
-	private Order() {
-		
-	}
-
 	public Order(Integer code, Double basic, Double discount) {
 		super();
 		this.code = code;
